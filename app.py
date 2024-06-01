@@ -289,7 +289,7 @@ with tap_self:
     st.chat_message("assistant").write("我是云上鸿音助手，你可以叫我Iris，虽然我现在还只是一个单人款demo，但是我已经可以做到客制化定制储存bot了，阅读教程来学会使用我把！")
     st.chat_message("user").write("那你的完全体是什么样子？")
     st.chat_message("assistant").write("我的完全体会加入个人账号，社区交流的功能，我自己就会是一个有着良好生态的chatbot社区，除此之外我还会支持微调功能，不过那都是有服务器支持以后的事情啦。")
-    st.chat_message("assistant").write("现在作为单人款的demo，我现在用的是prompt来达到我们客制化的效果。(参考PROMPT DESIGN AND ENGINEERING: INTRODUCTION AND ADVANCED METHODS，Xavier Amatrain https://arxiv.org/pdf/2401.14423)，同时感谢ChatGPT-Assistant提供的模版！")
+    st.chat_message("assistant").write("现在作为单人款的demo，我现在用的是prompt来达到我们客制化的效果。(参考PROMPT DESIGN AND ENGINEERING: INTRODUCTION AND ADVANCED METHODS，Xavier Amatrain )，同时感谢ChatGPT-Assistant提供的模版！")
 with tap_instruction:
     st.title("📚教程")
     if "messages" not in st.session_state:
