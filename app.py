@@ -174,7 +174,7 @@ with st.sidebar:
     """
     )
     st.markdown(
-        '<a href="https://github.com/PierXuY/ChatGPT-Assistant" target="_blank" rel="ChatGPT-Assistant">'
+        '<a href="https://github.com/yidu0924/Iris" target="_blank" rel="ChatGPT-Assistant">'
         '<img src="https://badgen.net/badge/icon/GitHub?icon=github&amp;label=ChatGPT Assistant" alt="GitHub">'
         "</a>",
         unsafe_allow_html=True,
@@ -540,7 +540,6 @@ if st.session_state["user_input_content"] != "":
         except (FileNotFoundError, KeyError):
             area_error.error(
                 "缺失 OpenAI API Key，请在复制项目后配置Secrets，或者在模型选项中进行临时配置。"
-                "详情见[项目仓库](https://github.com/PierXuY/ChatGPT-Assistant)。"
             )
         except openai.error.AuthenticationError:
             area_error.error("无效的 OpenAI API Key。")
