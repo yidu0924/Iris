@@ -15,7 +15,7 @@ else:
     openai.api_base = "https://api.openai.com/v1"
 
 st.set_page_config(
-    page_title="ChatGPT Assistant",
+    page_title="云上鸿音",
     layout="wide",
     page_icon=ICON,
 )
@@ -170,7 +170,7 @@ with st.sidebar:
     st.caption(
         """
     - 双击页面直接定位输入栏
-    - Ctrl + Enter 快捷提交问题
+
     """
     )
     st.markdown(
