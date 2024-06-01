@@ -322,16 +322,14 @@ with tap_context:
     )
 
 with tap_model:
-    st.markdown("OpenAI API Key (可选)")
+    st.markdown("OpenAI API Key ")
     st.text_input(
-        "OpenAI API Key (可选)",
+        "OpenAI API Key ",
         type="password",
         key="apikey_input",
         label_visibility="collapsed",
     )
-    st.caption(
-        "此Key仅在当前网页有效，且优先级高于Secrets中的配置，仅自己可用，他人无法共享。[官网获取](https://platform.openai.com/account/api-keys)"
-    )
+   
 
     st.slider(
         "Context Level",
