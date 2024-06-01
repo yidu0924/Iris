@@ -18,6 +18,3 @@
 - Xavier Amatrain, "Prompt Design and Engineering: Introduction and Advanced Methods" https://doi.org/10.48550/arXiv.2401.14423
 - 感谢ChatGPT-Assistant提供的模板！https://github.com/PierXuY/ChatGPT-Assistant.git
 
----
-
-准备好体验一个有着良好生态的chatbot社区了吗？快来使用云上鸿音助手Iris吧！
