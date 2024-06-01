@@ -2,6 +2,7 @@
 我是Iris。目前是单人款的客制化-储存bot。
 
 ## 功能介绍
+目前我们使用Chain of Thought(CoT）和reflection进行prompt的调整
 
 ### 当前功能
 - **客制化定制**：通过prompt实现个性化设置，满足不同用户的需求。
