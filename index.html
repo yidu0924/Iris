@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定制化 AI 自动回复机器人 Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <img src="logo.png" alt="公司 logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#guide">操作指南</a></li>
+                    <li><a href="#studio">RIS-studio</a></li>
+                    <li><a href="#warehouse">仓库</a></li>
+                    <li><a href="#profile">个人账户</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <section id="studio" class="studio">
+                <h2>定制 bot 工作室</h2>
+                <div class="bot-description">
+                    <h3>使用场景描述</h3>
+                    <textarea placeholder="描述您的 bot 使用场景..."></textarea>
+                </div>
+                <div class="bot-welcome">
+                    <h3>欢迎语</h3>
+                    <textarea placeholder="设置您的欢迎语..."></textarea>
+                </div>
+                <div class="bot-prompt">
+                    <h3>问答 Prompt 设置</h3>
+                    <textarea placeholder="设置您的问答 prompt..."></textarea>
+                </div>
+                <div class="bot-database">
+                    <h3>数据库上传</h3>
+                    <input type="file" id="database-upload" name="database-upload">
+                </div>
+                <div class="bot-api">
+                    <h3>API 选择</h3>
+                    <select>
+                        <option value="chatgpt-4">ChatGPT-4</option>
+                        <option value="chatgpt-4o">ChatGPT-4o</option>
+                        <option value="baidu-wenxin">百度文心一言</option>
+                    </select>
+                </div>
+                <div class="bot-tone">
+                    <h3>回复语气偏好</h3>
+                    <textarea placeholder="设置您的回复语气偏好..."></textarea>
+                </div>
+                <div class="bot-custom-qa">
+                    <h3>自定义标准问答设置</h3>
+                    <textarea placeholder="输入您的自定义标准问答..."></textarea>
+                </div>
+                <button class="submit-button">提交定制化需求</button>
+            </section>
+            <section id="warehouse" class="warehouse" style="display: none;">
+                <h2>仓库</h2>
+                <div class="bot-container">
+                    <div class="bot-card">
+                        <img src="bot_1_avatar.png" alt="bot_1 头像">
+                        <h3>bot_1</h3>
+                        <p>功能简介：网店客服</p>
+                        <button class="publish-button">发布/私密</button>
+                        <button class="integrate-button">接入应用</button>
+                    </div>
+                    <div class="bot-card">
+                        <img src="bot_2_avatar.png" alt="bot_2 头像">
+                        <h3>bot_2</h3>
+                        <p>功能简介：博主助理</p>
+                        <button class="publish-button">发布/私密</button>
+                        <button class="integrate-button">接入应用</button>
+                    </div>
+                    <div class="bot-card">
+                        <img src="bot_3_avatar.png" alt="bot_3 头像">
+                        <h3>bot_3</h3>
+                        <p>功能简介：金融顾问</p>
+                        <button class="publish-button">发布/私密</button>
+                        <button class="integrate-button">接入应用</button>
+                    </div>
+                </div>
+            </section>
+            <section id="bot-dialog" class="bot-dialog" style="display: none;">
+                <h2>bot 名称 + 问答测试</h2>
+                <div class="bot-dialog-content">
+                    <img src="logo.png" alt="公司 logo" class="large-logo">
+                    <p class="semi-transparent-text">云上鸿音</p>
+                </div>
+                <div class="bot-dialog-footer">
+                    <button class="edit-button">bot 信息编辑</button>
+                    <button class="token-button">查看 token 用量</button>
+                    <button class="app-button">接入应用编辑</button>
+                    <button class="support-button">私信我们解决问题</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
